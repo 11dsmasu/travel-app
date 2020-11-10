@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./js/index.js" defer></script>
+    <link rel="stylesheet" href="./css/styles.css">
+    <title> PNG Travel Iternary </title>
+</head>
+<body style="background-color:black; color:blanchedalmond"><center>
+    <div style="width: 1500px; height: 250px; background-image: url('https://img.theculturetrip.com/768x432/wp-content/uploads/2017/03/shutterstock_37634941-guido-amrein-switzerland.jpg'); background-size: 1500px 250px;">
+        <h1 style="font-family:cursive; font-size: xx-large;"> Travel Iternary </h1>
+        <h2> Destination </h2>
+        <p>Hello, are you interested in visiting Papua New Guinea, The Land of the Unexpected</p>
+    </div>
+    
+    <div id="favourite-png-destination"> 
+    </div>
+    <h1 style="color: maroon; font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">
+        Where to next!!
+    </h1>
+    <div id="next-destination">
+        <form id= "add-destination" style="width: 1000px; background-color: cadetblue; color: white" method="post">
+            <h2> Add Destination </h2> 
+            <p> Hey there!! Is there a place in Papua New Guinea that you think should make the list, please add below</p>
+                <p>
+                        <label for="province">Province:</label>
+                        <input type="text" id="province" name="province" value="by default this element is filled with this text">
+                    </p>
+                    <p>
+                        <label for="town">Town:</label>
+                        <input type="text" id="town" name="town">
+                    </p>
+                    <p>
+                        <label for="hotels">Hotels:</label>
+                        <input type="text" id="hotels" name="hotels">
+                    </p>
+                    <p>
+                        <label for="sites">Sites:</label>
+                        <input type="text" id="sites" name="sites">
+                    </p>
+                    <p>
+                        <label for="festival">Festival:</label>
+                        <input type="text" id="festival" name="festival">
+                    </p>
+                    <p>
+                        <label for="leisure">Leisure:</label>
+                        <input type="text" id="leisure" name="leisure">
+                    </p>
+                    <p>
+                        <label for="picture">Picture:</label>
+                        <input type="url" id="picture" name="picture" accept="image/png, image/jpeg">
+                    </p>
+                    
+                <div class="button">
+                    <button type="submit">Add Destination</button>
+                </div>
+                <footer style="color:lightblue">Copyright dmasu@switchmaven</footer>
+            
+            </form>
+    </div>
+    </center>
+</body>
+</html>
